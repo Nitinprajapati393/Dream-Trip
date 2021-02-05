@@ -1,0 +1,22 @@
+*
+{
+	font-family: Cursive;
+}
+body
+{
+	background-image: url('C:/Users/Nitin/Desktop/Sem 1/I P/Theory/project-1-2121036(BDA)/image/1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.kit
+{
+	border: 2px solid black;
+	font-size: 23px;
+	color: #ff0066;
+}
+.A{
+	color: #4dd2ff;
+}
+.B{
+    color: #1a75ff;
+}

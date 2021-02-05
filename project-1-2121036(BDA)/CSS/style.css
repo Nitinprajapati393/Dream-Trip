@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+*
+{
+	padding: 0;
+	margin: 0;
+	font-family: 'poppins',sans-serif;
+	box-sizing: border-box;
+}
+body
+{
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+section
+{
+	position: relative;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	min-height: 100vh;
+	background:url('C:/Users/Nitin/Desktop/Sem 1/I P/Theory/project-1-2121036(BDA)/image/bg.jpg'),
+	url('C:/Users/Nitin/Desktop/Sem 1/I P/Theory/project-1-2121036(BDA)/image/mask.jpg');
+	background-blend-mode: screen;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+header
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 40px 50px;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 1000;
+}
+header .logo
+{
+	position: relative;
+	color: #015b75;
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+header .menu-bar
+{
+	text-align: center;
+}
+.menu-bar ul
+{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+}
+.menu-bar ul li
+{
+	width: 120px;
+	margin-right: 15px;
+	padding:2px;
+}
+.play
+{
+	position: absolute;
+	bottom: 40px;
+	left:50px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+.menu-bar ul li a
+{
+	text-decoration: none;
+	color: #0000e6;
+}
+.active,.menu-bar ul li:hover
+{
+	background-color:#ccccff;
+	border-radius: 2px;
+}
+.menu-bar .fa
+{
+	margin-right: 8px;
+
+}
+.sub-menu-1
+{
+	display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+	display: block;
+	position: absolute;
+	background-color: #b3b3b3;
+	margin-top: 15px;
+	margin-left: -15px;
+}
+.sub-menu-1 ul
+{
+   display: block;
+   margin:10px;
+}
+.sub-menu-1 ul li
+{
+	width: 150px;
+	padding:5px;
+	border-bottom: 1px dotted  #004080;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.sub-menu-1 ul li:last-child
+{
+	border-bottom: none; 
+}
+.sub-menu-1 ul li a:hover
+{
+	color: #0066cc;
+}
+.play img { max-width: 40pc; } .play span { font-weight: 600; color: #015b75;
+margin-left: 10px; letter-spacing: 1px; }
+.sci
+{
+	position: absolute;
+	bottom: 40px;
+	right: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.sci li
+{
+	list-style: none;
+}
+.sci li a
+{
+	display: inline-block;
+    text-decoration: none;
+    transform: scale(0.6);
+}
+.content
+{
+	padding: 50px;
+}
+.content h2
+{
+	font-size: 9em;
+	line-height: 1em;
+	color: #015b75; 
+	font-family: 'Sofia', cursive;
+}

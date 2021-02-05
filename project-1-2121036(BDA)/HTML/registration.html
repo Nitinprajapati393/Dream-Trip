@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Regisration Form</title>
+	<link rel="stylesheet" type="text/css" href="C:/Users/Nitin/Desktop/Sem 1/I P/Theory/project-1-2121036(BDA)/CSS/registration.css">
+	<script type="text/javascript" src="C:/Users/Nitin/Desktop/Sem 1/I P/Theory/project-1-2121036(BDA)/JAVASCRIPT/confirmation.js"></script>
+	<script type="text/javascript" src="C:/Users/Nitin/Desktop/Sem 1/I P/Theory/project-1-2121036(BDA)/JAVASCRIPT/form validation.js"></script>
+</head>
+<body>
+    <h1 align="center">REGISTRATION FORM</h1>
+	<hr>
+	<form class="form" name="form" onsubmit="return form_validation()" method="post">
+<table border="0">
+	<tr>
+		<th align="right" class="A">NAME:<font color="red">*</font></th>
+	    <td align="left"><input type="text"class="name" name="name" autocomplete="off" id="name"></td>
+	</tr>
+	<tr></tr><tr></tr><tr></tr>
+	<tr>
+		<th align="right" class="A">AGE:<font color="red">*</font></th>
+	    <td align="left"><input type="number"class="age" min="15" name="age" autocomplete="off"></td>
+	</tr>
+	<tr></tr><tr></tr><tr></tr>
+	<tr>
+		<th align="right" class="A">CONTACT NO.:<font color="red">*</font></th>
+	    <td align="left"><input type="tel"class="number" pattern="[0-9]{10}" name="cnumber" autocomplete="off"></td>
+	</tr>
+	<tr></tr><tr></tr><tr></tr>
+	<tr>
+		<th align="right" class="A">EMAIL:<font color="red">*</font></th>
+	    <td align="left"><input type="email"class="email" name="email" autocomplete="off"></td>
+	</tr>
+	<tr></tr><tr></tr><tr></tr>
+	<th align="right" class="A">DATE OF REGISTRATION:<font color="red">*</font></th>
+		<td align="left"><input type="datetime-local" name="date"></td>
+	</tr>
+	<tr></tr><tr></tr><tr></tr>
+	<tr>
+		<th align="right" class="A">ADDRESS:</th>
+		<td align="left"><textarea rows="5" cols="22" name="address"></textarea></td>
+	</tr>
+	<tr></tr><tr></tr><tr></tr>
+	
+	<tr></tr><tr></tr><tr></tr>
+<tr>
+	<td></td>
+	<td><button onclick="confirmation()" type="submit" class="B">CONFIRM ADMISSION</button><input type="reset" class="B" value="RESET">
+</tr>
+</table>
+</form>
+</body>
+</html>
